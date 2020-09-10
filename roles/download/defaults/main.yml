@@ -51,7 +51,7 @@ image_arch: "{{host_architecture | default('amd64')}}"
 # Versions
 kube_version: v1.18.8
 kubeadm_version: "{{ kube_version }}"
-etcd_version: v3.4.3
+etcd_version: v3.4.13
 
 # gcr and kubernetes image repo define
 gcr_image_repo: "gcr.io"
